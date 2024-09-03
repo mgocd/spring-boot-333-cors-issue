@@ -14,7 +14,7 @@ import static com.example.demo.DemoAppConstants.AUTHENTICATED_ENDPOINT;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 import static org.springframework.security.config.Customizer.withDefaults;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT, classes = { DemoApplication.class, CorsWithCrossOriginAndHttpCorsTest.SecurityConfigWithHttpCors.class })
+@SpringBootTest(webEnvironment = RANDOM_PORT, classes = {DemoApplication.class, CorsWithCrossOriginAndHttpCorsTest.SecurityConfigWithHttpCors.class})
 public class CorsWithCrossOriginAndHttpCorsTest extends CorsAbstractTest {
 
     @TestConfiguration

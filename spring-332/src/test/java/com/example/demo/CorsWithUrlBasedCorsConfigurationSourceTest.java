@@ -37,9 +37,9 @@ public class CorsWithUrlBasedCorsConfigurationSourceTest extends CorsAbstractTes
             var source = new UrlBasedCorsConfigurationSource();
             source.registerCorsConfiguration(AUTHENTICATED_ENDPOINT, configuration);
             return source;
-    }
-
         }
 
-
     }
+
+
+}

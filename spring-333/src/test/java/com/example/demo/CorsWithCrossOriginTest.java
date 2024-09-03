@@ -16,7 +16,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 // only @CrossOrigin from CorsController, no other configuration
 
-@SpringBootTest(webEnvironment = RANDOM_PORT, classes = { DemoApplication.class, CorsWithCrossOriginTest.SecurityConfigWithoutCors.class })
+@SpringBootTest(webEnvironment = RANDOM_PORT, classes = {DemoApplication.class, CorsWithCrossOriginTest.SecurityConfigWithoutCors.class})
 public class CorsWithCrossOriginTest extends CorsAbstractTest {
 
     @TestConfiguration
